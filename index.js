@@ -42,6 +42,8 @@ $('#submit-button').click(function(){
     errorMessage += fieldMissing;
   }
 
-  $('.errors').append(errorMessage);
+  if (errorMessage != "<p> Please correct the following: </p> ") {
+    $('.errors').append(errorMessage);
+  }
 
 });
