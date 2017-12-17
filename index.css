@@ -1,6 +1,6 @@
 body {
   font-family: helvetica, sans-serif;
-  font-size: 200%;
+  font-size: 130%;
 }
 
 input {
@@ -12,16 +12,22 @@ input {
 }
 
 label {
+  position: relative;
   width: 200px;
-  top: 4px;
+  top: 10px;
   float: left;
 }
 
 #wrapper {
-  width: 500px;
+  width: 700px;
   margin: 0 auto;
 }
 
 .form-element {
   margin-bottom: 10px;
+}
+
+#submit-button {
+  width: 150px;
+  margin-left: 200px;
 }
