@@ -27,6 +27,12 @@ label {
   margin-bottom: 10px;
 }
 
+.errors {
+  color: red;
+  font-weight: bold;
+  padding-bottom: 15px;
+}
+
 #submit-button {
   width: 150px;
   margin-left: 200px;
