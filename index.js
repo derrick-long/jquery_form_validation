@@ -44,6 +44,8 @@ $('#submit-button').click(function(){
 
   if (errorMessage != "<p> Please correct the following: </p> ") {
     $('.errors').append(errorMessage);
+  } else {
+    $('#success').append('Form submitted!');
   }
 
 });
